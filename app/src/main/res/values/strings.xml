@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Galabout</string>
+    <string-array name="amino_acids_full_txt">
+        <item>Hotel 1</item>
+        <item>Hotel 2 </item>
+        <item>Hotel 3 </item>
+        <item>Hotel 4 </item>
+        <item>Hotel 5 </item>
+        <item>Hotel 6 </item>
+        <item>Hotel 7 </item>
+        <item>Hotel 8 </item>
+        <item>Hotel 9 </item>
+    </string-array>
+    <string-array name="amino_acids_one_letter_txt">
+        <item>Price 1</item>
+        <item>Price 2 </item>
+        <item>Price 3 </item>
+        <item>Price 4 </item>
+        <item>Price 5 </item>
+        <item>Price 6 </item>
+        <item>Price 7 </item>
+        <item>Price 8 </item>
+        <item>Price 9 </item>
+    </string-array>
+    <string-array name="amino_acids_three_letter_txt">
+        <item>Details 1 </item>
+        <item>Details 2 </item>
+        <item>Details 3 </item>
+        <item>Details 4 </item>
+        <item>Details 5 </item>
+        <item>Details 6 </item>
+        <item>Details 7 </item>
+        <item>Details 8 </item>
+        <item>Details 9 </item>
+    </string-array>
 </resources>
