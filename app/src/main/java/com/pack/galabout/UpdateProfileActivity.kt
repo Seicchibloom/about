@@ -10,6 +10,7 @@ import android.provider.MediaStore
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
 class UpdateProfileActivity : AppCompatActivity() {
@@ -27,6 +28,7 @@ class UpdateProfileActivity : AppCompatActivity() {
     private val PICK_IMAGE = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_updateprofile)
 
