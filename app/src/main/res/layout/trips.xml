@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-28dp"
+    android:background="@drawable/gradient">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="108dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/cabin_condensed_bold"
+            android:text="Trips"
+            android:textAllCaps="true"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.044" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="294dp"
+            android:layout_height="142dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.286">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="294dp"
+                android:layout_height="142dp"
+                android:background="@drawable/d8" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_height="141dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.143"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.844">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="140dp"
+                android:layout_height="141dp"
+                android:background="@drawable/intramuros" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_height="141dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.863"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.844">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="140dp"
+                android:layout_height="141dp"
+                android:background="@drawable/museum" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="140dp"
+            android:layout_height="141dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.863"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.573">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="140dp"
+                android:layout_height="141dp"
+                android:background="@drawable/boracay" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="140dp"
+            android:layout_height="141dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.132"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.574">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="140dp"
+                android:layout_height="141dp"
+                android:background="@drawable/mtmayon"/>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="160dp"
+            android:layout_height="51dp"
+            android:background="@drawable/roundcorner"
+            android:backgroundTint="#51FFFFFF"
+            android:fontFamily="@font/cabin_condensed_regular"
+            android:text="all bookings"
+            android:textAlignment="center"
+            android:textColor="#655E5E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.933"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="160dp"
+            android:layout_height="51dp"
+            android:background="@drawable/roundcorner"
+            android:backgroundTint="#26C0C0"
+            android:fontFamily="@font/cabin_condensed_regular"
+            android:text="Upcoming"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.066"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.144" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
